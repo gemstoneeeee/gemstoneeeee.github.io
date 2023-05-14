@@ -1,6 +1,7 @@
 body{
-    background-image: url("https://i.ibb.co/423rF66/background-image.png");
- }
+  background-image: url(https://i.ibb.co/423rF66/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
  .dotted{
      border-style: none;
      border-top-style: dotted;
