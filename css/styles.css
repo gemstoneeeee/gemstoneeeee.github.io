@@ -3,7 +3,7 @@ body{
   padding: 0;
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url(https://raw.githubusercontent.com/gemstoneeeee/gem…neeeee.github.io/main/images/background-image.png);
+  background-image: url(../images/background-image.png);
   background-repeat: no-repeat;
   background-size: cover;}
  .dotted{
