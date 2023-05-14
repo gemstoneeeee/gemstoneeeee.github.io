@@ -5,7 +5,8 @@ body{
   min-width: 100vw;
   background-image: url(../images/background-image.png);
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;  
+  background-position: center;}
  .dotted{
      border-style: none;
      border-top-style: dotted;
