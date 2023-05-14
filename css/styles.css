@@ -6,7 +6,9 @@ body{
   background-image: url(../images/017.jpg);
   background-repeat: no-repeat;
   background-size: cover;  
-  background-position: center;}
+  background-position: center;
+  overflow:hidden;
+  }
 
 
   nav {
@@ -29,6 +31,7 @@ body{
     text-decoration: none;
     font-size: 12px;
     font-family: sans-serif;
+    font-weight: 500;
   }
 
   
