@@ -35,13 +35,13 @@ h3{
   a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-family: garamond,serif;
     font-weight: 700;
   }
 
 .sub{
-  font-size: 12px;
+  font-size: 16px;
   color: #ffffff;
   font-family: garamond,serif;
 }
@@ -61,7 +61,7 @@ h3{
  }
  h1{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     font-family: garamond,serif;
  }
 
