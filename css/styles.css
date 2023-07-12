@@ -1,3 +1,35 @@
+/*
+改造步骤：
+1.set up a structure: color;size;align;font family etc
+  column:
+  title:
+  content:
+  
+2.reconsider:is the painting part necessary?
+
+3.add contact on the about page
+
+4.tbc
+
+
+*/
+
+
+/*
+font-family: 'Codystar', cursive;
+font-family: 'Flow Circular', cursive;
+font-family: 'Kablammo', cursive;
+font-family: 'Libre Barcode 39', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Noto Serif SC', serif;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Pixels', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'VT323', monospace;
+*/
+  
+
+
 body{
   margin: 0;
   padding: 0;
@@ -9,6 +41,7 @@ body{
   background-position: center;
   overflow:auto;
   overflow-x:hidden;
+  font-family:monospace ;
 }
 
 p {
@@ -43,8 +76,8 @@ h3{
 
 .sub{
   font-size: 16px;
-  color: #000000;
-  font-family: garamond,serif;
+  color: #ffffff;
+  font-family: monospace,serif;
   margin-left: 20%;
   margin-right: 40%;
 }
@@ -63,7 +96,7 @@ h3{
    height: 0px;
  }
  h1{
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     font-family: garamond,serif;
  }
