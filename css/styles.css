@@ -9,7 +9,10 @@
 
 3.add contact on the about page
 
-4.tbc
+4.add border:0px 20px 50px 20px
+
+
+5.tbc
 
 
 */
@@ -43,6 +46,17 @@ body{
   overflow-x:hidden;
   font-family:monospace ;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+
+}
+
 
 p {
   line-height: 1.5;
@@ -97,7 +111,7 @@ h3{
  }
  h1{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     font-family: garamond,serif;
  }
 
