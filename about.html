@@ -20,14 +20,14 @@ div {
     #first {
       background-color:#862B0D;
       padding: 20px;
-      border: 10px solid black;
+      border: 10px solid rgb(255, 255, 255);
       margin-left: 420px;
     }
 
     #second {
       background-color: #FFC95F;
       padding: 20px;
-      border: solid rgb(0, 0, 0);
+      border: solid rgb(255, 255, 255);
       border-width: 20px 10px;
       margin-left: 780px;
     }
@@ -35,14 +35,16 @@ div {
     #third {
       background-color: #B5C99A;
       padding: 20px;
-      border: 20px solid black;
+      border: 20px solid rgb(255, 255, 255);
       border-width: 10px 20px;
       margin-left: 200px;
     }
 
     body{
     color: white;
-    font-family: garamond,serif;
+    font-family: monospace;
+    background-image: url(./images/lian.jpg);
+    
     }
   </style>
 </head>
@@ -50,12 +52,15 @@ div {
 
 
 
+
    
 
 <body>
+
+  
     
-  <br>
-<h1>
+ 
+<h1 style="color: rgb(255, 255, 255); font-weight: lighter;">
   <center>
     About Lian
   </center>
@@ -79,10 +84,32 @@ div {
 
 </div>
 
+  
+<section id="footer">
+    
+  <div class="container">
+      <footer >
 
-<br>
-<br>
-<br>
+
+
+
+
+          <div class="text-center text-body-secondary" style='position: fixed; left: 44%; bottom:10px; text-align: center; height: auto; '><span style="color: white; " > © Lian 2023</span></div>
+      
+      
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+
+
+
+
+</section>
 
 </body>
 
